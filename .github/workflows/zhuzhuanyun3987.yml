@@ -1,8 +1,9 @@
 name: zhuzhuanyun3987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
+    - cron: '30 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhuzhuanyun3987
         env:
-          pgs737: ${{ secrets.pgs737 }}
+          qc86: ${{ secrets.qc86 }}
         run: |
-          echo $pgs737 | jq -r .b6868 | /bin/bash
-          echo $wwu786 | jq -r .q22082 | /bin/bash
-          echo $hhlq8 | jq -r .pg414 | /bin/bash
-          echo $ab249 | jq -r .vgbxu5 | /bin/bash
-          echo $to54 | jq -r .e1118 | /bin/bash
-          echo $i4499 | jq -r .trpq3395 | /bin/bash
-          echo $tqgfe4 | jq -r .wh2 | /bin/bash
-          echo $n0851 | jq -r .lfl415 | /bin/bash
-          echo $peyr81 | jq -r .hbv40994 | /bin/bash
-          echo $gca134 | jq -r .bjvfw8 | /bin/bash
-          echo $zfc696 | jq -r .rybg829 | /bin/bash
-          echo $yotpc610 | jq -r .b8 | /bin/bash
+          echo $qc86 | jq -r .bxrf2 | /bin/bash
+          echo $p216 | jq -r .q58 | /bin/bash
+          echo $sn57174 | jq -r .mt40 | /bin/bash
+          echo $uklnv3617 | jq -r .xglcm544 | /bin/bash
 
